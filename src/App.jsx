@@ -1,6 +1,6 @@
 import BgVideo from './assets/earth-bg.mp4'
 import Navbar from './components/Navbar/Navbar'
-
+import Banner from './components/Banner/Banner'
 function App() {
 
 
@@ -16,7 +16,7 @@ function App() {
           <source src={BgVideo} type="video/mp4" />
         </video>
         <Navbar />
-        {/* <Hero /> */}
+        <Banner/>
       </div>
       {/* <HeroCard /> */}
       {/* <Rapidscat /> */}

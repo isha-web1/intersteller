@@ -1,5 +1,3 @@
-
-
 const Navbar = () => {
   return (
     <>
@@ -10,8 +8,9 @@ const Navbar = () => {
         <div className="container items-center mx-auto">
           <div className="flex justify-between items-center ">
             <div className="flex items-center gap-4 text-white font-bold text-2xl">
-              
-              <span className="pl-4"><span className="text-cyan-600">Inter</span>steller</span>
+              <span className="pl-4">
+                <span className="text-cyan-600">Inter</span>steller
+              </span>
             </div>
             <div className="text-white hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 ">
